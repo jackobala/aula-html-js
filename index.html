@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="./main.css">
+
+<form class="form" id="form">
+    <p>
+        if numberB > numberA: <br/>
+         print("Sucesso")
+    </p>
+    <div class="grupo">
+        <input required="true" class="main-input" type="number" id="NumberA">
+        <span class="highlight-span"></span>
+        <label class="label-number">Number A</label>
+    </div>
+    <div class="container-1">
+        <div class="grupo">
+            <input required="true" class="main-input" type="number" id="NumberB">
+            <span class="highlight-span"></span>
+            <label class="label-number">Number B</label>
+        </div>
+    </div>
+    <button type="button" onclick="validaNumber()">submit</button>
+    
+</form>
+
+<p class="mensagem-sucesso" id="resultado"></p>
+<script src="./main.js"></script>
